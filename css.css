@@ -1,0 +1,107 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background: linear-gradient(90deg, rgb(85, 183, 207) 0%, rgb(116, 197, 193) 35%, rgb(4, 113, 133) 100%);
+    }
+    
+    h1{
+        float: left;
+        padding-left: 15px;
+        letter-spacing: 5px;
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    h1:hover {
+        color: yellow;
+    }
+    /* Nav */
+    
+    nav {
+        float: right;
+        display: flex;
+        align-items: center;
+        
+    }
+    nav ul {
+        display: flex;
+        
+    }
+    nav li {
+        list-style-type: none;   
+        float: left; 
+    }
+    nav a {
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color:rgb(22, 19, 7);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav a:hover {
+        color: yellow;
+    }
+    /* side bar */
+    .col-sm-2 {
+        margin-top: 30px;
+        background-color: rgb(247, 152, 118);
+        border-radius: 7px;
+    }
+    .col-sm-2 h3 {
+        display: flex;
+        justify-content: center;
+        padding-top:20px;
+        padding-bottom: 300px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+
+
+
+    .col-sm-10 {
+        margin-top: 30px;
+        padding-top:60px;
+    }
+    .col-sm-5 p {
+        margin-top: 40px;
+    }
+    .col-sm-5 img {
+        border-radius: 5px;
+    }
+    .col-sm-12 {
+        margin-top: 100px;
+    }
+    .col-sm-12 img {
+        width: 700px;
+        height: 250px;
+    }
+    .col-sm-6 {
+        margin-top: 50px;
+    }
+
+    #contact {
+        margin-top: 500px;
+    }
+
+    @media (max-width: 560px) {
+        .col-sm-12 img {
+            width: 300px;
+            height: 300px;
+        }
+        #contact {
+            margin-top: 0px;
+        }
+     }
+
+     @media (max-width: 810px) {
+
+        nav li a{
+            font-size: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+     }
