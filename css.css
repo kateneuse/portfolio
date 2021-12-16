@@ -1,4 +1,4 @@
-
+/* KATE NEUSE header */ 
 header {
     display: flex;
     justify-content: space-between;
@@ -6,8 +6,8 @@ header {
     padding: 8px;
     background: linear-gradient(90deg, rgb(85, 183, 207) 0%, rgb(116, 197, 193) 35%, rgb(4, 113, 133) 100%);
     }
-    
-    h1{
+
+h1{
         float: left;
         padding-left: 15px;
         letter-spacing: 5px;
@@ -15,43 +15,43 @@ header {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
-    h1:hover {
+h1:hover {
         color: yellow;
     }
-    /* Nav */
+/* Nav */
     
-    nav {
+nav {
         float: right;
         display: flex;
         align-items: center;
         
     }
-    nav ul {
+nav ul {
         display: flex;
         
     }
-    nav li {
+nav li {
         list-style-type: none;   
         float: left; 
     }
-    nav a {
+nav a {
         padding: 10px;
         text-decoration: none;
         font-size: 20px;
         color:rgb(22, 19, 7);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    nav a:hover {
+nav a:hover {
         color: yellow;
     }
-    /* side bar */
-    .col-sm-2 {
+/* side bar */
+.col-sm-2 {
         margin-top: 30px;
         background-color: rgb(247, 152, 118);
         border-radius: 7px;
         
     }
-    .col-sm-2 h3 {
+.col-sm-2 h3 {
         display: flex;
         justify-content: center;
         padding-top:20px;
@@ -64,31 +64,36 @@ header {
         position: relative;
     }
 
-
-    .col-sm-10 {
+/* right side section*/
+.col-sm-10 {
         margin-top: 30px;
         padding-top:60px;
     }
-    .col-sm-5 p {
+
+/* about me columns with img and bio*/
+.col-sm-5 p {
         margin-top: 40px;
     }
-    .col-sm-5 img {
+.col-sm-5 img {
         border-radius: 5px;
     }
-    .col-sm-12 {
+
+/* largest work image placeholder*/    
+.col-sm-12 {
         margin-top: 100px;
     }
-    .col-sm-12 img {
+.col-sm-12 img {
         width: 600px;
         height: 250px;
     }
-    .col-sm-6 {
+/* the columns for the four placeholder images*/
+.col-sm-6 {
         margin-top: 50px;
     }
 
 
-
-    .text-block {
+/* the text over the placeholder images*/
+.text-block {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -96,23 +101,26 @@ header {
       background-color: black;
       color: white;
     }
-    #about, #work {
+
+/* h3 elements in side bar*/    
+#about, #work {
         padding-bottom: 300px;
     }
-    #contact {
+
+#contact {
         margin-top: 500px;
         padding-bottom: 100px;
     }
-    #last {
+
+/* id for contact div*/
+#last {
         margin-top: 100px;
     }
 
-    footer {
-        height: 80px;
-        background-color: black;
-    }
 
-    @media (max-width: 560px) {
+/* minimizing the placeholder image, side bar and h3 elements*/
+
+@media (max-width: 560px) {
         .col-sm-12 img {
             width: 300px;
             height: 300px;
@@ -125,6 +133,7 @@ header {
         }
      }
 
+/* having the nav bar smaller when window is minimized*/
      @media (max-width: 810px) {
 
         nav li a{
