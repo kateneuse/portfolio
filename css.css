@@ -54,7 +54,7 @@ nav a:hover {
 .col-sm-2 h3 {
         display: flex;
         justify-content: center;
-        padding-top:20px;
+        padding-top:100px;
         
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -78,32 +78,28 @@ nav a:hover {
         border-radius: 5px;
     }
 
-/* largest work image placeholder*/    
-.col-sm-12 {
-        margin-top: 100px;
-    }
-.col-sm-12 img {
-        width: 400px;
-        height: 250px;
-    }
-/* the columns for the four placeholder images*/
-.col-sm-6 {
-        margin-top: 50px;
-        
-    }
-.col-sm-6 img {
-    width: 400px;
-    height: 300px;
-}
+/* work section */    
 
-/* the text over the placeholder images*/
-.text-block {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: rgb(247, 152, 118)
-    }
+.row{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin-top: 50px;
+    background-color: rgb(167, 199, 187);
+    padding: 20px;
+}
+.title {
+    font-size: 20px;
+    padding: 10px;
+}
+.repo {
+    font-size: 18px;
+}
+.card img {
+    height: 300px;
+    width: auto;
+}
 
 /* h3 elements in side bar*/    
 #about, #work {
